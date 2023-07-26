@@ -1,0 +1,43 @@
+*{
+    background-image: url(bgimg.webp);
+}
+body{
+	font-family: "Poppins";
+}
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+tr:nth-of-type(odd) { 
+	background: #dcd7e0; 
+	}
+
+th { 
+	background: #583672; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+.intro {
+   background: #dcd7e0;
+}	
+p{
+	font-style: Poppins;
+    background: transparent;
+    color: black;
+    font-size: 1.25rem;
+}
+.title{
+	background: #dcd7e0 ;
+}
+.head{
+	background: #583672 ;
+	color: white;
+}
