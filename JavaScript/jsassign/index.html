@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <br>
+    <h3>This is a website that changes background color automatically after 5 seconds using javascript.</h3>
+    <script>
+        let i = 0;
+        let randomColor = Math.floor(Math.random()*16777215).toString(6);
+
+         function changecolor() {
+          document.body.style.backgroundColor = "#"+randomColor;
+          i++;
+          if(i>=randomColor.length){
+            i=0;
+          }
+        }
+    setInterval(changecolor, 5000); 
+
+</script>
+</body>
+</html>
